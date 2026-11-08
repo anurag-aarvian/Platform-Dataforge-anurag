@@ -1,0 +1,24 @@
+scenario: fmcg_distribution_india_20y
+seed: 20261108
+engine_version: "0.2.0"
+sector_template: fmcg_distribution
+period: {start: 2005-01-01, end: 2024-12-31, grain: day}
+world:
+  companies: {count: 20, size_mix: {sme: 0.4, mid: 0.45, large: 0.15}}
+  products_per_company: {dist: lognormal, median: 25, max: 80}
+  locations_per_company: {dist: uniform, min: 2, max: 6}
+  regions: [NCR, UP-West, Punjab, Rajasthan, Maharashtra, Karnataka, Tamil Nadu, West Bengal]
+drivers:
+  macro: {model: calibrated, shocks: [demonetisation_like, lockdown_2021_like, commodity_spike]}
+  calendar: public_holidays
+  weather: climate
+behaviours:
+  price_elasticity: {dist: normal, mean: -1.4, sd: 0.5}
+  promo: {frequency_per_year: [2, 12], lift: [1.2, 3.0], post_dip: true}
+  intermittent_share: 0.35
+observation:
+  profiles: {clean_enterprise: 0.2, typical_mid_market: 0.5, spreadsheet_sme: 0.3}
+context_notes: {enabled: true, languages: [en, hi, hinglish], noise_policy: realistic}
+coverage:
+  target: template_grid
+outputs: [truth_panel, observed_exports, decomposition, events, context_notes, market_data]

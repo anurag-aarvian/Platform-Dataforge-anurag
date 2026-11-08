@@ -1,0 +1,15 @@
+{
+  "company_id": "C00017",
+  "name": "Durga Sales Corporation",
+  "size": "mid",
+  "observation_profile": "typical_mid_market",
+  "regions": [
+    "Tamil-Nadu",
+    "West-Bengal"
+  ],
+  "sector": "fmcg_distribution",
+  "data_maturity": "medium",
+  "systems": "Tally Prime",
+  "country": "IN",
+  "currency": "INR"
+}

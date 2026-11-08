@@ -1,0 +1,14 @@
+{
+  "company_id": "C00013",
+  "name": "Vinayak Distributors",
+  "size": "sme",
+  "observation_profile": "spreadsheet_sme",
+  "regions": [
+    "NCR"
+  ],
+  "sector": "fmcg_distribution",
+  "data_maturity": "low",
+  "systems": "Excel workbooks",
+  "country": "IN",
+  "currency": "INR"
+}

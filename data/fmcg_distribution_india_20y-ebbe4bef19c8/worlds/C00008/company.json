@@ -1,0 +1,15 @@
+{
+  "company_id": "C00008",
+  "name": "Bharat Enterprises",
+  "size": "mid",
+  "observation_profile": "clean_enterprise",
+  "regions": [
+    "Rajasthan",
+    "Maharashtra"
+  ],
+  "sector": "fmcg_distribution",
+  "data_maturity": "high",
+  "systems": "SAP S/4",
+  "country": "IN",
+  "currency": "INR"
+}

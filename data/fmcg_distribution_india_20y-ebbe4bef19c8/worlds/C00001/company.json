@@ -1,0 +1,15 @@
+{
+  "company_id": "C00001",
+  "name": "Om Wholesale",
+  "size": "mid",
+  "observation_profile": "typical_mid_market",
+  "regions": [
+    "NCR",
+    "West-Bengal"
+  ],
+  "sector": "fmcg_distribution",
+  "data_maturity": "medium",
+  "systems": "Tally Prime",
+  "country": "IN",
+  "currency": "INR"
+}

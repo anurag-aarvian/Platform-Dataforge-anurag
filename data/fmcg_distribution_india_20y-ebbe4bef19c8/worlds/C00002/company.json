@@ -1,0 +1,15 @@
+{
+  "company_id": "C00002",
+  "name": "Balaji Distributors",
+  "size": "mid",
+  "observation_profile": "typical_mid_market",
+  "regions": [
+    "UP-West",
+    "Maharashtra"
+  ],
+  "sector": "fmcg_distribution",
+  "data_maturity": "medium",
+  "systems": "Tally Prime",
+  "country": "IN",
+  "currency": "INR"
+}

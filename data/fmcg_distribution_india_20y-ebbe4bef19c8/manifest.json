@@ -1,0 +1,471 @@
+{
+  "scenario": "fmcg_distribution_india_20y",
+  "seed": 20261108,
+  "engine_version": "0.2.0",
+  "generator_versions": {
+    "statistical": "0.2.0",
+    "causal": "0.2.0",
+    "mechanistic": "0.2.0",
+    "observation": "0.2.0",
+    "notes": "0.1.0",
+    "validator": "0.2.0"
+  },
+  "spec_hash": "599dbbb622b5228df6ab67c117f03a279045a7668b547941536678fa26b35675",
+  "plan_id": "pl_ebbe4bef19c809e53738",
+  "content_hash": "8e910071d0968162018160114169d3033a755f87a6454812115a2b06c51f7aba",
+  "world_hashes": {
+    "C00001": "8c9f4c5c4cef809985285917711f6ee5ba9b53a03ef8449ea6cfc039ff0383be",
+    "C00002": "f1de37a61cfddae553843078f2adb09b369911ef4e70509efa29df3ed8e3fd8d",
+    "C00003": "66c16383c2a69a33a60ad13de12ea860248b0adce6147e1e4dff1760a825c251",
+    "C00004": "fbf08c622ba8631f741ca1cae00ed1c89246b2d9621620faa13c4751f72ccc6b",
+    "C00005": "3e203fcaedbc1db15d2c0b33aadc96ed41535ac3f50041d5d98c0d6a4a67248d",
+    "C00006": "5c237d73b9fe81542e1cb80b388ab1a7c729d90912f242622cc59e1b7f5bf0a8",
+    "C00007": "3556f756f4f57be590bac74a0ab93dd9afab8c72fa9128f3155acdb77d7772ea",
+    "C00008": "06fce57461c10eb678bd5c902c768cd0112bf9f9d2a6230ccb12bccde1f3f9a1",
+    "C00009": "ac5a0087480e92c62469055f9a407c8b1e58310438e11e7f1fde79415da2a8c1",
+    "C00010": "3d576af3390d5de08f18b1b09c14aea69eef078101b4308e40c829151d9a0593",
+    "C00011": "7a74d38fd46c506cb0d45258e66e274ed1e32d8aec2227f52794e6956746ca2f",
+    "C00012": "d6372115f714b1b9d8a7619e93996de9e34b12b7d38e224615b7d99a7cb5d8f1",
+    "C00013": "74c975298d58de993d959c616dea20cac5b3347f55728342f0bdbc1b8d888e5a",
+    "C00014": "0ebb10d6234457e66e999af3d59d38ebe5178d0832d7c521b9edac77e52136db",
+    "C00015": "aab6e7cd81c39b31b5d6614ab5f6e3e3f2e624b14013c1c479bc0b88fd49dc50",
+    "C00016": "240d488d52c1926a5b74151edf41d2c59203f1585af43c64a7f8d330f7eeffbd",
+    "C00017": "c9fcc941c3644a362d9baca4f4e3b7b5685853d3c241a3cd437d15ca5d5fd1e0",
+    "C00018": "cc5829ae727a4155828d48e8d53551b45efa539f9453e093c22e26fee344780f",
+    "C00019": "d6981b06d4fa6870a7b6ea55c65c97fb751bfd59a2eb5c142a6a746a724bffce",
+    "C00020": "67112524a7d88b335a9ebdeab7ac6b8e8f6e9e98bdbeb6f082b9eb3a07068606"
+  },
+  "period": {
+    "start": "2005-01-01",
+    "end": "2024-12-31",
+    "grain": "day",
+    "days": 7305
+  },
+  "sector_template": "fmcg_distribution",
+  "template_ref": "fmcg_distribution@1",
+  "template_hash": "96962e1efa5b0f7a6738bad013d223a7a39f300d048329b1d89d4fa5cbf01620",
+  "regions": [
+    "NCR",
+    "UP-West",
+    "Punjab",
+    "Rajasthan",
+    "Maharashtra",
+    "Karnataka",
+    "Tamil-Nadu",
+    "West-Bengal"
+  ],
+  "stats": {
+    "series": 2323,
+    "values": 16969515,
+    "postings": 10305281,
+    "corruptions": 684754,
+    "stockout_days": 483114,
+    "lost_units": 18608183,
+    "demand_units": 310497526,
+    "hourly_values": 0,
+    "events": 60556,
+    "notes": 13907,
+    "worlds": 20,
+    "size_bytes": 1067490626,
+    "seconds": 39.17
+  },
+  "corruptions": {
+    "month_end_batching": 432962,
+    "late_posting": 167018,
+    "manual_correction": 40784,
+    "duplicate_invoice": 26414,
+    "censoring": 2323,
+    "migration_gap": 12326,
+    "sku_rename": 28,
+    "partial_month": 2899
+  },
+  "companies": [
+    {
+      "company_id": "C00001",
+      "name": "Om Wholesale",
+      "size": "mid",
+      "observation_profile": "typical_mid_market",
+      "regions": [
+        "NCR",
+        "West-Bengal"
+      ],
+      "sector": "fmcg_distribution",
+      "data_maturity": "medium",
+      "systems": "Tally Prime",
+      "country": "IN",
+      "currency": "INR"
+    },
+    {
+      "company_id": "C00002",
+      "name": "Balaji Distributors",
+      "size": "mid",
+      "observation_profile": "typical_mid_market",
+      "regions": [
+        "UP-West",
+        "Maharashtra"
+      ],
+      "sector": "fmcg_distribution",
+      "data_maturity": "medium",
+      "systems": "Tally Prime",
+      "country": "IN",
+      "currency": "INR"
+    },
+    {
+      "company_id": "C00003",
+      "name": "Sai Distributors",
+      "size": "sme",
+      "observation_profile": "typical_mid_market",
+      "regions": [
+        "Punjab"
+      ],
+      "sector": "fmcg_distribution",
+      "data_maturity": "medium",
+      "systems": "Tally Prime",
+      "country": "IN",
+      "currency": "INR"
+    },
+    {
+      "company_id": "C00004",
+      "name": "Royal Stockists",
+      "size": "mid",
+      "observation_profile": "typical_mid_market",
+      "regions": [
+        "Karnataka",
+        "Tamil-Nadu"
+      ],
+      "sector": "fmcg_distribution",
+      "data_maturity": "medium",
+      "systems": "Tally Prime",
+      "country": "IN",
+      "currency": "INR"
+    },
+    {
+      "company_id": "C00005",
+      "name": "Krishna Wholesale",
+      "size": "sme",
+      "observation_profile": "typical_mid_market",
+      "regions": [
+        "Punjab"
+      ],
+      "sector": "fmcg_distribution",
+      "data_maturity": "medium",
+      "systems": "Tally Prime",
+      "country": "IN",
+      "currency": "INR"
+    },
+    {
+      "company_id": "C00006",
+      "name": "Royal Traders",
+      "size": "mid",
+      "observation_profile": "typical_mid_market",
+      "regions": [
+        "NCR",
+        "Punjab"
+      ],
+      "sector": "fmcg_distribution",
+      "data_maturity": "medium",
+      "systems": "Tally Prime",
+      "country": "IN",
+      "currency": "INR"
+    },
+    {
+      "company_id": "C00007",
+      "name": "Balaji Enterprises",
+      "size": "sme",
+      "observation_profile": "typical_mid_market",
+      "regions": [
+        "Tamil-Nadu"
+      ],
+      "sector": "fmcg_distribution",
+      "data_maturity": "medium",
+      "systems": "Tally Prime",
+      "country": "IN",
+      "currency": "INR"
+    },
+    {
+      "company_id": "C00008",
+      "name": "Bharat Enterprises",
+      "size": "mid",
+      "observation_profile": "clean_enterprise",
+      "regions": [
+        "Rajasthan",
+        "Maharashtra"
+      ],
+      "sector": "fmcg_distribution",
+      "data_maturity": "high",
+      "systems": "SAP S/4",
+      "country": "IN",
+      "currency": "INR"
+    },
+    {
+      "company_id": "C00009",
+      "name": "Balaji Marketing",
+      "size": "sme",
+      "observation_profile": "spreadsheet_sme",
+      "regions": [
+        "UP-West"
+      ],
+      "sector": "fmcg_distribution",
+      "data_maturity": "low",
+      "systems": "Excel workbooks",
+      "country": "IN",
+      "currency": "INR"
+    },
+    {
+      "company_id": "C00010",
+      "name": "Krishna Trading Co.",
+      "size": "large",
+      "observation_profile": "clean_enterprise",
+      "regions": [
+        "Rajasthan",
+        "Maharashtra"
+      ],
+      "sector": "fmcg_distribution",
+      "data_maturity": "high",
+      "systems": "SAP S/4",
+      "country": "IN",
+      "currency": "INR"
+    },
+    {
+      "company_id": "C00011",
+      "name": "Om Enterprises",
+      "size": "mid",
+      "observation_profile": "spreadsheet_sme",
+      "regions": [
+        "Rajasthan",
+        "Tamil-Nadu"
+      ],
+      "sector": "fmcg_distribution",
+      "data_maturity": "low",
+      "systems": "Excel workbooks",
+      "country": "IN",
+      "currency": "INR"
+    },
+    {
+      "company_id": "C00012",
+      "name": "Maruti Traders",
+      "size": "mid",
+      "observation_profile": "typical_mid_market",
+      "regions": [
+        "Tamil-Nadu"
+      ],
+      "sector": "fmcg_distribution",
+      "data_maturity": "medium",
+      "systems": "Tally Prime",
+      "country": "IN",
+      "currency": "INR"
+    },
+    {
+      "company_id": "C00013",
+      "name": "Vinayak Distributors",
+      "size": "sme",
+      "observation_profile": "spreadsheet_sme",
+      "regions": [
+        "NCR"
+      ],
+      "sector": "fmcg_distribution",
+      "data_maturity": "low",
+      "systems": "Excel workbooks",
+      "country": "IN",
+      "currency": "INR"
+    },
+    {
+      "company_id": "C00014",
+      "name": "Om Stockists",
+      "size": "mid",
+      "observation_profile": "typical_mid_market",
+      "regions": [
+        "NCR",
+        "Maharashtra"
+      ],
+      "sector": "fmcg_distribution",
+      "data_maturity": "medium",
+      "systems": "Tally Prime",
+      "country": "IN",
+      "currency": "INR"
+    },
+    {
+      "company_id": "C00015",
+      "name": "Jai Enterprises",
+      "size": "sme",
+      "observation_profile": "typical_mid_market",
+      "regions": [
+        "Tamil-Nadu"
+      ],
+      "sector": "fmcg_distribution",
+      "data_maturity": "medium",
+      "systems": "Tally Prime",
+      "country": "IN",
+      "currency": "INR"
+    },
+    {
+      "company_id": "C00016",
+      "name": "Mahalaxmi Agencies",
+      "size": "mid",
+      "observation_profile": "typical_mid_market",
+      "regions": [
+        "Punjab",
+        "Maharashtra"
+      ],
+      "sector": "fmcg_distribution",
+      "data_maturity": "medium",
+      "systems": "Tally Prime",
+      "country": "IN",
+      "currency": "INR"
+    },
+    {
+      "company_id": "C00017",
+      "name": "Durga Sales Corporation",
+      "size": "mid",
+      "observation_profile": "typical_mid_market",
+      "regions": [
+        "Tamil-Nadu",
+        "West-Bengal"
+      ],
+      "sector": "fmcg_distribution",
+      "data_maturity": "medium",
+      "systems": "Tally Prime",
+      "country": "IN",
+      "currency": "INR"
+    },
+    {
+      "company_id": "C00018",
+      "name": "Ganga Enterprises",
+      "size": "mid",
+      "observation_profile": "typical_mid_market",
+      "regions": [
+        "UP-West",
+        "Tamil-Nadu"
+      ],
+      "sector": "fmcg_distribution",
+      "data_maturity": "medium",
+      "systems": "Tally Prime",
+      "country": "IN",
+      "currency": "INR"
+    },
+    {
+      "company_id": "C00019",
+      "name": "Bharat Marketing",
+      "size": "mid",
+      "observation_profile": "typical_mid_market",
+      "regions": [
+        "UP-West",
+        "West-Bengal"
+      ],
+      "sector": "fmcg_distribution",
+      "data_maturity": "medium",
+      "systems": "Tally Prime",
+      "country": "IN",
+      "currency": "INR"
+    },
+    {
+      "company_id": "C00020",
+      "name": "Krishna Sales Corporation",
+      "size": "sme",
+      "observation_profile": "spreadsheet_sme",
+      "regions": [
+        "UP-West"
+      ],
+      "sector": "fmcg_distribution",
+      "data_maturity": "low",
+      "systems": "Excel workbooks",
+      "country": "IN",
+      "currency": "INR"
+    }
+  ],
+  "components": [
+    "base",
+    "trend",
+    "texture",
+    "seasonality",
+    "calendar",
+    "weather",
+    "macro",
+    "lifecycle",
+    "price_effect",
+    "promo",
+    "cannibalisation",
+    "event_shock",
+    "noise"
+  ],
+  "outputs": [
+    "truth_panel",
+    "observed_exports",
+    "decomposition",
+    "events",
+    "context_notes",
+    "market_data"
+  ],
+  "gate": "pass",
+  "ai": {},
+  "data_sources": [
+    {
+      "snapshot": "worldbank_wdi-20261106-2198073328e8",
+      "source": "worldbank_wdi",
+      "label": "World Bank World Development Indicators",
+      "publisher": "The World Bank",
+      "licence": "CC BY 4.0",
+      "licence_url": "https://datacatalog.worldbank.org/public-licenses#cc-by",
+      "attribution": "The World Bank: World Development Indicators (https://data.worldbank.org/), CC BY 4.0.",
+      "homepage": "https://data.worldbank.org/",
+      "retrieved_at": "2026-11-06T15:03:31+00:00",
+      "sha256": "2198073328e83a610ab977f73529cc39bedfdfc017635060d67637ad6682516a",
+      "rows": 44981,
+      "params": {
+        "indicators": [
+          "NY.GDP.MKTP.KD.ZG",
+          "NY.GDP.PCAP.CD",
+          "FP.CPI.TOTL.ZG",
+          "FR.INR.LEND",
+          "PA.NUS.FCRF",
+          "PA.NUS.PPP",
+          "SL.UEM.TOTL.ZS",
+          "SP.POP.TOTL",
+          "SP.URB.TOTL.IN.ZS"
+        ],
+        "years": [
+          2000,
+          2025
+        ]
+      },
+      "library_versions": {},
+      "usage": "macro paths for India 2005\u20132024 (GDP growth, inflation, interest rate, exchange rate)",
+      "role": "calibration"
+    }
+  ],
+  "market_data": {
+    "file": "market.parquet",
+    "columns": {
+      "gdp_index": "calibrated where origin = calibrated, else synthetic",
+      "cpi_index": "calibrated where origin = calibrated, else synthetic",
+      "interest_rate_pct": "calibrated where origin = calibrated, else synthetic",
+      "fx_per_usd": "calibrated where origin = calibrated, else synthetic",
+      "equity_index": "synthetic",
+      "commodity_index": "synthetic",
+      "regime": "calibrated where origin = calibrated, else synthetic"
+    }
+  },
+  "calendar_library": "holidays 0.108",
+  "countries": [
+    "IN"
+  ],
+  "labels": [
+    {
+      "kind": "public_data",
+      "title": "Calibrated with public real-world data",
+      "detail": "Demand is synthetic. Public data calibrates the simulation: World Bank World Development Indicators (CC BY 4.0) for macro paths for India 2005\u20132024 (GDP growth, inflation, interest rate, exchange rate).",
+      "sources": [
+        {
+          "snapshot": "worldbank_wdi-20261106-2198073328e8",
+          "source": "worldbank_wdi",
+          "label": "World Bank World Development Indicators",
+          "licence": "CC BY 4.0",
+          "retrieved_at": "2026-11-06T15:03:31+00:00",
+          "usage": "macro paths for India 2005\u20132024 (GDP growth, inflation, interest rate, exchange rate)",
+          "role": "calibration"
+        }
+      ]
+    }
+  ],
+  "parameter_findings": []
+}

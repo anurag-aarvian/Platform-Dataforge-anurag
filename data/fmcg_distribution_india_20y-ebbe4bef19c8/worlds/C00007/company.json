@@ -1,0 +1,14 @@
+{
+  "company_id": "C00007",
+  "name": "Balaji Enterprises",
+  "size": "sme",
+  "observation_profile": "typical_mid_market",
+  "regions": [
+    "Tamil-Nadu"
+  ],
+  "sector": "fmcg_distribution",
+  "data_maturity": "medium",
+  "systems": "Tally Prime",
+  "country": "IN",
+  "currency": "INR"
+}

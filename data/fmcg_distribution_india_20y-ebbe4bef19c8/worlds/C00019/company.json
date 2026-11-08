@@ -1,0 +1,15 @@
+{
+  "company_id": "C00019",
+  "name": "Bharat Marketing",
+  "size": "mid",
+  "observation_profile": "typical_mid_market",
+  "regions": [
+    "UP-West",
+    "West-Bengal"
+  ],
+  "sector": "fmcg_distribution",
+  "data_maturity": "medium",
+  "systems": "Tally Prime",
+  "country": "IN",
+  "currency": "INR"
+}

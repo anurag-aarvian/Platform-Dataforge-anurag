@@ -1,0 +1,15 @@
+{
+  "company_id": "C00004",
+  "name": "Royal Stockists",
+  "size": "mid",
+  "observation_profile": "typical_mid_market",
+  "regions": [
+    "Karnataka",
+    "Tamil-Nadu"
+  ],
+  "sector": "fmcg_distribution",
+  "data_maturity": "medium",
+  "systems": "Tally Prime",
+  "country": "IN",
+  "currency": "INR"
+}

@@ -1,0 +1,15 @@
+{
+  "company_id": "C00016",
+  "name": "Mahalaxmi Agencies",
+  "size": "mid",
+  "observation_profile": "typical_mid_market",
+  "regions": [
+    "Punjab",
+    "Maharashtra"
+  ],
+  "sector": "fmcg_distribution",
+  "data_maturity": "medium",
+  "systems": "Tally Prime",
+  "country": "IN",
+  "currency": "INR"
+}

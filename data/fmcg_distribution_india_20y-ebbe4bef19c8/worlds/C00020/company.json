@@ -1,0 +1,14 @@
+{
+  "company_id": "C00020",
+  "name": "Krishna Sales Corporation",
+  "size": "sme",
+  "observation_profile": "spreadsheet_sme",
+  "regions": [
+    "UP-West"
+  ],
+  "sector": "fmcg_distribution",
+  "data_maturity": "low",
+  "systems": "Excel workbooks",
+  "country": "IN",
+  "currency": "INR"
+}

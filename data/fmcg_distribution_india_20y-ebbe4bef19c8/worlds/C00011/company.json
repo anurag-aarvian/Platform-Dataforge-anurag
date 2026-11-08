@@ -1,0 +1,15 @@
+{
+  "company_id": "C00011",
+  "name": "Om Enterprises",
+  "size": "mid",
+  "observation_profile": "spreadsheet_sme",
+  "regions": [
+    "Rajasthan",
+    "Tamil-Nadu"
+  ],
+  "sector": "fmcg_distribution",
+  "data_maturity": "low",
+  "systems": "Excel workbooks",
+  "country": "IN",
+  "currency": "INR"
+}
